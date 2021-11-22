@@ -9,22 +9,6 @@ int main()
      printf("Enter a string : ");
      gets(s);
 
-     ln=strlen(s);
-
-     for(i=0;i<ln;i++)
-     {
-         fq[s[i]]++;
-     }
-
-     for(i=0;i<ln;i++)
-     {
-         if(mx<fq[s[i]])
-         {
-             mx=fq[s[i]];
-             result=s[i];
-         }
-     }
-
     len = strlen(s);
     printf("Duplicate characters:");
     for (i = 0; i < len; i++) {
